@@ -56,4 +56,9 @@ function createGrid(numGrid) {
   $("#container").children("div").mouseenter(function(){
     $(this).css("backgroundColor", "#183f74");
   });
+  
+  $("#container").children("div").click(function(){
+    $(this).css("backgroundColor", "white");
+  });
+  
 };
